@@ -22,6 +22,8 @@ html{
 
 }
 
+
+
 a{
     color: #fff;
     text-decoration: none;
@@ -428,6 +430,11 @@ height: 900px;
     display: flex;
     gap: 50px;
     align-items: center;
+}
+
+.certificate-image{
+    width: 600px;
+    height: 350px;
 }
 
 .certificate-box p{
