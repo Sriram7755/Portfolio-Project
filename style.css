@@ -321,7 +321,7 @@ height: 900px;
     font-size: 60px;
    }
    .about-text h2 span{
-    color: #00FFD5;
+    color: #fff200;
    }
    .img-about{
     width: 20px;
@@ -426,12 +426,14 @@ height: 900px;
    }
 .certificate-box{
     display: flex;
-    gap: 50px;
+     gap: 50px;
     align-items: center;
+    overflow:hidden;
+
 }
 
 .certificate-box p{
-    font-size: 2rem;
+    font-size: 1rem;
 
 }
    .certificate-container .certificate-box{
@@ -526,4 +528,7 @@ resize: none;
 .contact-box .field-box input:focus,
 .contact-box .field-box textarea:focus{
     border-color: var(--main-color);
+}
+.cer{
+    width: 500px;
 }
