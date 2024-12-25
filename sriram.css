@@ -22,8 +22,6 @@ html{
 
 }
 
-
-
 a{
     color: #fff;
     text-decoration: none;
@@ -330,7 +328,6 @@ height: 900px;
    }
 
 
-
    .heading{
     font-size: 2.7rem;
     text-align: center;
@@ -339,7 +336,7 @@ height: 900px;
    }
    .heading span{
     color: var(--main-color);
-    margin-top: 300px;
+   /*  margin-top: 300px; */
    }
    .services{
    padding: 50px auto;
@@ -347,7 +344,8 @@ height: 900px;
    }
 
    #services-heading{
-    padding: 80px;
+  
+    padding-top: 80px;
     text-align: center;
     justify-content: baseline;
    }
@@ -355,8 +353,10 @@ height: 900px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
     gap: 2rem;
-    padding-top: 20px;
-    padding: 60px 9% 0;
+ /*    padding-top: 20px; */
+ /*    padding: 60px 9% 0; */
+         padding-left: 100px;
+         padding-right: 100px;
    }
 
    .services-container .services-box{
@@ -365,6 +365,7 @@ height: 900px;
     border: .2rem solid var(--second-bgcolor);
     border-radius: 1rem;
     transition: .5s;
+    width: 90%;
 
    }
 
@@ -393,7 +394,7 @@ height: 900px;
    .services-box .icon a i{
     font-size: 3rem;
     color: var(--bg-color);
-    transform: rotate(225deg);
+   
    }
 /*    .services-box h3{
     font-size: 3rem;
@@ -409,7 +410,7 @@ height: 900px;
    .heading1{
     font-size: 4.5rem;
     text-align: center;
-    margin-bottom: 2rem;
+   
 
    }
    .heading1 span{
@@ -417,30 +418,36 @@ height: 900px;
    }
 
    #certificate-heading{
-    padding: 75px;
-    font-size: 3.5rem;
+    /* padding: 80px; */
+    font-size: 2.5rem;
+    padding-top: 80px;
    }
    .certificate-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
     gap: 2rem;
     padding: 60px 9% 0;
+   
+   }
+   .certificate-img1{
+    width: 600px;
+   }
+   .certificate-img2{
+    width: 500px;
+   }
+   .certificate-img3{
+    width: 500px;
    }
 .certificate-box{
     display: flex;
-     gap: 50px;
+    gap: 50px;
     align-items: center;
-    overflow:hidden;
+    width: 90%;
 
-}
-
-.certificate-image{
-    width: 600px;
-    height: 350px;
 }
 
 .certificate-box p{
-    font-size: 1rem;
+    font-size: 2rem;
 
 }
    .certificate-container .certificate-box{
@@ -535,7 +542,4 @@ resize: none;
 .contact-box .field-box input:focus,
 .contact-box .field-box textarea:focus{
     border-color: var(--main-color);
-}
-.cer{
-    width: 500px;
 }
