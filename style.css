@@ -434,6 +434,11 @@ height: 900px;
     font-size: 2rem;
 
 }
+
+.certificate-image{
+    width: 500px;
+    height: 350px;
+}
    .certificate-container .certificate-box{
     padding: 3rem 2.5rem;
     background: var(--second-bgcolor);
