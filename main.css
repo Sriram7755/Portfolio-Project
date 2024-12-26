@@ -15,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    
   }
 
   
@@ -22,9 +23,29 @@ body {
     text-align: center;
   }
   
+  #h1tag{
+    color: red;
+    font-size: 150px;
+    text-decoration: double;
+    line-height: 25px;
+    -webkit-text-stroke: 10px black; 
+    
+  }
+
+  #h2tag{
+    font-size: 50px;
+    color: white;
+    line-height: 23px;
+  }
+
+  #h2tagspan{
+    font-size: 80px;
+    color: red;
+    -webkit-text-stroke: 5px black;
+  }
   h1 {
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 100px;
     color: #cdced1;
     text-transform: uppercase;
   }
